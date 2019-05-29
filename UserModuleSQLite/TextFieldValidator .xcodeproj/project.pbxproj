@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		67E31E2F229D11350094F3EF /* UserModuleSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserModuleSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E31E2F229D11350094F3EF /* TextFieldValidator .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextFieldValidator .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E31E32229D11350094F3EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67E31E34229D11350094F3EF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		67E31E37229D11350094F3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		67E31E26229D11350094F3EF = {
 			isa = PBXGroup;
 			children = (
-				67E31E31229D11350094F3EF /* UserModuleSQLite */,
+				67E31E31229D11350094F3EF /* TextFieldValidator */,
 				67E31E30229D11350094F3EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		67E31E30229D11350094F3EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67E31E2F229D11350094F3EF /* UserModuleSQLite.app */,
+				67E31E2F229D11350094F3EF /* TextFieldValidator .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67E31E31229D11350094F3EF /* UserModuleSQLite */ = {
+		67E31E31229D11350094F3EF /* TextFieldValidator */ = {
 			isa = PBXGroup;
 			children = (
 				67E31E32229D11350094F3EF /* AppDelegate.swift */,
@@ -66,7 +66,7 @@
 				67E31E3B229D11360094F3EF /* LaunchScreen.storyboard */,
 				67E31E3E229D11360094F3EF /* Info.plist */,
 			);
-			path = UserModuleSQLite;
+			path = TextFieldValidator;
 			sourceTree = "<group>";
 		};
 		67E31E44229D11F90094F3EF /* Validator */ = {
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67E31E2E229D11350094F3EF /* UserModuleSQLite */ = {
+		67E31E2E229D11350094F3EF /* TextFieldValidator  */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67E31E41229D11360094F3EF /* Build configuration list for PBXNativeTarget "UserModuleSQLite" */;
+			buildConfigurationList = 67E31E41229D11360094F3EF /* Build configuration list for PBXNativeTarget "TextFieldValidator " */;
 			buildPhases = (
 				67E31E2B229D11350094F3EF /* Sources */,
 				67E31E2C229D11350094F3EF /* Frameworks */,
@@ -101,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = UserModuleSQLite;
+			name = "TextFieldValidator ";
 			productName = UserModuleSQLite;
-			productReference = 67E31E2F229D11350094F3EF /* UserModuleSQLite.app */;
+			productReference = 67E31E2F229D11350094F3EF /* TextFieldValidator .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 67E31E2A229D11350094F3EF /* Build configuration list for PBXProject "UserModuleSQLite" */;
+			buildConfigurationList = 67E31E2A229D11350094F3EF /* Build configuration list for PBXProject "TextFieldValidator " */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67E31E2E229D11350094F3EF /* UserModuleSQLite */,
+				67E31E2E229D11350094F3EF /* TextFieldValidator  */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UserModuleSQLite/Info.plist;
+				INFOPLIST_FILE = TextFieldValidator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UserModuleSQLite/Info.plist;
+				INFOPLIST_FILE = TextFieldValidator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67E31E2A229D11350094F3EF /* Build configuration list for PBXProject "UserModuleSQLite" */ = {
+		67E31E2A229D11350094F3EF /* Build configuration list for PBXProject "TextFieldValidator " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67E31E3F229D11360094F3EF /* Debug */,
@@ -350,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67E31E41229D11360094F3EF /* Build configuration list for PBXNativeTarget "UserModuleSQLite" */ = {
+		67E31E41229D11360094F3EF /* Build configuration list for PBXNativeTarget "TextFieldValidator " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67E31E42229D11360094F3EF /* Debug */,
