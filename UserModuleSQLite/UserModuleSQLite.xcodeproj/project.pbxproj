@@ -14,14 +14,6 @@
 		67E31E3D229D11360094F3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E31E3B229D11360094F3EF /* LaunchScreen.storyboard */; };
 		67E31E46229D12440094F3EF /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E31E45229D12440094F3EF /* Validator.swift */; };
 		67E31E48229D13500094F3EF /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E31E47229D13500094F3EF /* Toast.swift */; };
-		67E31E55229D14B60094F3EF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E31E4B229D14B50094F3EF /* FMDatabaseQueue.m */; };
-		67E31E56229D14B60094F3EF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E31E4E229D14B60094F3EF /* FMDatabaseAdditions.m */; };
-		67E31E57229D14B60094F3EF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E31E4F229D14B60094F3EF /* FMDatabase.m */; };
-		67E31E58229D14B60094F3EF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E31E53229D14B60094F3EF /* FMDatabasePool.m */; };
-		67E31E59229D14B60094F3EF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E31E54229D14B60094F3EF /* FMResultSet.m */; };
-		67E31E5B229D14C20094F3EF /* HSDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E31E5A229D14C20094F3EF /* HSDBManager.swift */; };
-		67E31E61229D17400094F3EF /* UserModuleSQLite.db in Resources */ = {isa = PBXBuildFile; fileRef = 67E31E5D229D14D10094F3EF /* UserModuleSQLite.db */; };
-		67E31E64229D18300094F3EF /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E31E63229D18300094F3EF /* RegisterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,21 +26,6 @@
 		67E31E3E229D11360094F3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67E31E45229D12440094F3EF /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		67E31E47229D13500094F3EF /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
-		67E31E4A229D14B50094F3EF /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		67E31E4B229D14B50094F3EF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		67E31E4C229D14B60094F3EF /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		67E31E4D229D14B60094F3EF /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		67E31E4E229D14B60094F3EF /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		67E31E4F229D14B60094F3EF /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		67E31E50229D14B60094F3EF /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		67E31E51229D14B60094F3EF /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		67E31E52229D14B60094F3EF /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		67E31E53229D14B60094F3EF /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		67E31E54229D14B60094F3EF /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		67E31E5A229D14C20094F3EF /* HSDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSDBManager.swift; sourceTree = "<group>"; };
-		67E31E5C229D14D10094F3EF /* UserModuleSQLite-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserModuleSQLite-Bridging-Header.h"; sourceTree = "<group>"; };
-		67E31E5D229D14D10094F3EF /* UserModuleSQLite.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = UserModuleSQLite.db; sourceTree = "<group>"; };
-		67E31E63229D18300094F3EF /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +42,6 @@
 		67E31E26229D11350094F3EF = {
 			isa = PBXGroup;
 			children = (
-				67E31E5C229D14D10094F3EF /* UserModuleSQLite-Bridging-Header.h */,
-				67E31E5D229D14D10094F3EF /* UserModuleSQLite.db */,
 				67E31E31229D11350094F3EF /* UserModuleSQLite */,
 				67E31E30229D11350094F3EF /* Products */,
 			);
@@ -86,7 +61,6 @@
 				67E31E32229D11350094F3EF /* AppDelegate.swift */,
 				67E31E62229D17B30094F3EF /* ViewController */,
 				67E31E36229D11350094F3EF /* Main.storyboard */,
-				67E31E49229D14B50094F3EF /* FMDB */,
 				67E31E44229D11F90094F3EF /* Validator */,
 				67E31E39229D11360094F3EF /* Assets.xcassets */,
 				67E31E3B229D11360094F3EF /* LaunchScreen.storyboard */,
@@ -104,30 +78,10 @@
 			path = Validator;
 			sourceTree = "<group>";
 		};
-		67E31E49229D14B50094F3EF /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				67E31E5A229D14C20094F3EF /* HSDBManager.swift */,
-				67E31E4A229D14B50094F3EF /* FMDatabase.h */,
-				67E31E4B229D14B50094F3EF /* FMDatabaseQueue.m */,
-				67E31E4C229D14B60094F3EF /* FMResultSet.h */,
-				67E31E4D229D14B60094F3EF /* FMDatabasePool.h */,
-				67E31E4E229D14B60094F3EF /* FMDatabaseAdditions.m */,
-				67E31E4F229D14B60094F3EF /* FMDatabase.m */,
-				67E31E50229D14B60094F3EF /* FMDatabaseQueue.h */,
-				67E31E51229D14B60094F3EF /* FMDB.h */,
-				67E31E52229D14B60094F3EF /* FMDatabaseAdditions.h */,
-				67E31E53229D14B60094F3EF /* FMDatabasePool.m */,
-				67E31E54229D14B60094F3EF /* FMResultSet.m */,
-			);
-			path = FMDB;
-			sourceTree = "<group>";
-		};
 		67E31E62229D17B30094F3EF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				67E31E34229D11350094F3EF /* LoginVC.swift */,
-				67E31E63229D18300094F3EF /* RegisterVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -192,7 +146,6 @@
 			files = (
 				67E31E3D229D11360094F3EF /* LaunchScreen.storyboard in Resources */,
 				67E31E3A229D11360094F3EF /* Assets.xcassets in Resources */,
-				67E31E61229D17400094F3EF /* UserModuleSQLite.db in Resources */,
 				67E31E38229D11350094F3EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,17 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67E31E55229D14B60094F3EF /* FMDatabaseQueue.m in Sources */,
 				67E31E35229D11350094F3EF /* LoginVC.swift in Sources */,
 				67E31E48229D13500094F3EF /* Toast.swift in Sources */,
-				67E31E57229D14B60094F3EF /* FMDatabase.m in Sources */,
-				67E31E64229D18300094F3EF /* RegisterVC.swift in Sources */,
-				67E31E5B229D14C20094F3EF /* HSDBManager.swift in Sources */,
 				67E31E46229D12440094F3EF /* Validator.swift in Sources */,
-				67E31E58229D14B60094F3EF /* FMDatabasePool.m in Sources */,
-				67E31E59229D14B60094F3EF /* FMResultSet.m in Sources */,
 				67E31E33229D11350094F3EF /* AppDelegate.swift in Sources */,
-				67E31E56229D14B60094F3EF /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bv.CoreDataDemo.UserModuleSQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "UserModuleSQLite-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,7 +332,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bv.CoreDataDemo.UserModuleSQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "UserModuleSQLite-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

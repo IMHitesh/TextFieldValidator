@@ -20,17 +20,12 @@ class LoginVC: UIViewController {
     
     func setValidation(){
         txtEmail.setValidation(Type: .Email)
-        txtPassword.setValidation(Type: .Password)
+        txtPassword.setValidation(Type: .Password, message: "Please enter valid password") //Custom message
     }
     
     @IBAction func btnLoginTap(){
         if self.view.ValidateAllTextField(){
-            let email = txtEmail.text!
-            let password = txtPassword.text!
-            let strQuery = "INSERT INTO UserModule (email,password) VALUES('\(email)','\(password)')"
-            HSDBManager.sharedInstance.methodToInsertUpdateDeleteData(strQuery) { (status) in
-                print("User loggedIn Sucessfuly")
-            }
+            print("All fields are valid")
         }
     }
 }
